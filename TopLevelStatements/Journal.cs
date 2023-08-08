@@ -5,6 +5,6 @@
         public string Name { get; set; }
         public string Description { get; set; }
         public DateOnly Foundation { get; set; }
-        Contacts Contacts { get; set; }
+        public Contacts Contacts { get; set; }
     }
 }
