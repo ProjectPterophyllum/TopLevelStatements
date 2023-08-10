@@ -57,6 +57,7 @@ for (int i = 0; i < array.Length; i++)
     Console.WriteLine($"{array[i]}");
 }
 #endregion
+#region Task 4
 Web_site website = new Web_site()
 {
     site_name = "Defsite",
@@ -66,3 +67,4 @@ Web_site website = new Web_site()
     path = "www.defaultsite.com"
 };
 Console.WriteLine(website.ToString());
+#endregion
