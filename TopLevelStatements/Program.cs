@@ -18,7 +18,6 @@ void drawing(int side, char symbol)
 //Console.WriteLine();
 //drawing(5, '#');
 #endregion
-
 #region Task 2
 //bool isPalindrom(int number)
 //{
