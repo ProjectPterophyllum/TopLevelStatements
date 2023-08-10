@@ -30,7 +30,7 @@ namespace TopLevelStatements
         }
         public override string ToString()
         {
-            return site_name + " - " + site_description + " - " + site_ip + base.ToString();
+            return site_name + " - " + site_description + " - " + site_ip + " " + base.ToString();
         }
     }
 }

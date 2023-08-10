@@ -57,3 +57,12 @@ for (int i = 0; i < array.Length; i++)
     Console.WriteLine($"{array[i]}");
 }
 #endregion
+Web_site website = new Web_site()
+{
+    site_name = "Defsite",
+    site_description = "default site",
+    site_ip = new IPAddress(new byte[4] {192, 168, 100, 1}),
+    scheme = "https",
+    path = "www.defaultsite.com"
+};
+Console.WriteLine(website.ToString());
